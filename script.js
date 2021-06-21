@@ -16,7 +16,7 @@ function totalCost(e){
 
     let result = (numberOfbagels + numberOftea + numberOfcoffee);
 
-    document.getElementById("totalCost").textContent = `Your total cost is ${result} coins.`;
+    document.getElementById("totalCost").textContent = `Your total cost is ${result} dollars.`;
 
     form.bagels.value = " ";
     form.tea.value = " ";
